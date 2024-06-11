@@ -44,7 +44,7 @@ Get data for a specific subject, course number & professor
 Example
 Get data for a subject & professor (all courses)
 
-`GET /thing/`
+`GET /get-data`
 
     curl "http://localhost:8080/get-data?subject=MATH&instructor=Shi%2C%20Kejian"
 
