@@ -1,6 +1,6 @@
 # De Anza Transfercamp Data API
 
-This is an API built on the data provided by Transfercamp for De Anza College.
+This is an API built on the data provided by Transfercamp for De Anza College, supports data from 2015-2019.
 Credits go to [Jacob Johnson](https://www.linkedin.com/in/jacobljohnston/) for providing the data in JSON format.
 Data was retrieved through [here](https://transfercamp.com/de-anza-college-grade-distribution-2/).
 
