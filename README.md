@@ -24,7 +24,7 @@ Or run the build shell script
 ```
 
 # API
-# Endpoint : http://127.0.0.1:8080
+Endpoint : http://127.0.0.1:8080
 
 /get-data
 * 'GET': Get course data
