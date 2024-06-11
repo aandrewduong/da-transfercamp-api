@@ -11,7 +11,7 @@ Data was retrieved through [here](https://transfercamp.com/de-anza-college-grade
     go run .
 
 # Build
-    go go build main.go
+    go build main.go
 Or run the build shell script
 
 
