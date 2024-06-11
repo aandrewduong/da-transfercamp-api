@@ -14,13 +14,25 @@ Data was retrieved through [here](https://transfercamp.com/de-anza-college-grade
     go go build main.go
 Or run the build shell script
 
+
+## Structure
+```
+├── da-transfercamp-api
+│   ├── pgd              // Transfercamp Data
+│   ├── build.sh         /// Build shell script
+│   └── main.go
+```
+
 # API
-Listens at :8080. Main endpoint is /get-data.
+# Endpoint : http://127.0.0.1:8080
+
+/get-data
+* 'GET': Get course data
 
 Example
 Get data for a specific subject, course number & professor
 
-`GET /thing/`
+`GET /get-data`
 
     curl "http://localhost:8080/get-data?subject=MATH&number=D022&instructor=Shi%2C%20Kejian"
 
